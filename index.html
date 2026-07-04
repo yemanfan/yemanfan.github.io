@@ -16,8 +16,8 @@
       color: #222;
     }
     h1 {
-      font-size: 34px;
-      margin-bottom: 5px;
+      font-size: 30px;
+      margin-bottom: 3px;
     }
     h2 {
       border-bottom: 1px solid #ddd;
@@ -40,6 +40,7 @@
       width: 150px;
       height: 150px;
       object-fit: cover;
+	  object-position: center 20%;
       border-radius: 4px;
       background: #eee;
     }
@@ -61,67 +62,104 @@
       font-size: 13px;
       color: #777;
     }
+	.paper-year{
+		margin-top:30px;
+		margin-bottom:10px;
+		padding-bottom:5px;
+		font-size:26px;
+		font-weight:bold;
+	}
+
+	.paper{
+		margin-bottom:18px;
+		line-height:1.6;
+	}
+
+	.paper-title{
+		font-weight:600;
+	}
+
+	.authors{
+		color:#444;
+	}
+
+	.venue{
+		font-style:italic;
+	}
+
+	.status{
+		color:#b00020;
+		font-weight:600;
+	}
+
+	.links{
+		margin-top:3px;
+	}
+
+	.links a{
+		margin-right:12px;
+		text-decoration:none;
+		color:#0056b3;
+	}
+
+	.links a:hover{
+		text-decoration:underline;
+	}
+	
   </style>
 </head>
 
 <body>
 
   <div class="header">
-    <img src="photo.jpg" alt="Profile photo" class="photo" />
+    <img src="ym.jpg" alt="Profile photo" class="photo" />
 
     <div>
       <h1>Yeman Fan</h1>
       <div class="title">
         Research Fellow<br>
+		Faculty of Environment and Information Studies<br>
         Keio University
       </div>
 
-      <p>
-        I am a researcher in soft robotics, continuum robotics, variable stiffness mechanisms,
-        and tactile sensing for robotic manipulation.
-      </p>
+	<p>
+		<a href="yemanfan@keio.jp">
+		<i class="fas fa-envelope"></i> Email
+		</a>
 
-     <h2>Social</h2>
+		&nbsp;&nbsp;
 
-<p>
+		<a href="https://scholar.google.com/citations?user=fOVGrCwAAAAJ&hl=en">
+		<i class="fas fa-graduation-cap"></i> Google Scholar
+		</a>
 
-<a href="mailto:your@email.com">
-<i class="fas fa-envelope"></i> Email
-</a>
+		&nbsp;&nbsp;
 
-&nbsp;&nbsp;
+		<a href="https://orcid.org/0000-0002-6273-0768">
+		<i class="fab fa-orcid"></i> ORCID
+		</a>
 
-<a href="https://scholar.google.com/citations?user=fOVGrCwAAAAJ&hl=en">
-<i class="fas fa-graduation-cap"></i> Google Scholar
-</a>
+		&nbsp;&nbsp;
+		
+		<a href="https://www.linkedin.com/in/yeman-f-851a54212/">
+		<i class="fab fa-linkedin"></i> LinkedIn
+		</a>
+	</p>
+		</div>
+	  </div>
 
-&nbsp;&nbsp;
+	<h2>About</h2>
+	<p>
+	I am a Research Fellow in the Faculty of Environment and Information Studies at
+	Keio University, Japan. I received my Ph.D. in Robotics Engineering from the
+	University of Technology Sydney (UTS), Australia, in 2023.
+	</p>
 
-<a href="https://orcid.org/0000-0000-0000-0000">
-<i class="fab fa-orcid"></i> ORCID
-</a>
-
-&nbsp;&nbsp;
-
-<a href="https://www.researchgate.net/profile/YourName">
-<i class="fab fa-researchgate"></i> ResearchGate
-</a>
-
-&nbsp;&nbsp;
-
-<a href="https://www.linkedin.com/in/yourname">
-<i class="fab fa-linkedin"></i> LinkedIn
-</a>
-
-&nbsp;&nbsp;
-
-<a href="https://www.zhihu.com/people/yourname">
-<i class="fas fa-share-alt"></i> Zhihu
-</a>
-
-</p>
-    </div>
-  </div>
+	<p>
+	Prior to joining Keio University, I worked as a Postdoctoral Research Associate
+	at UTS and as a Project Researcher at The University of Tokyo, where I conducted
+	research on continuum robotics, soft robotics, and intelligent robotic systems.
+	</p>
 
   <h2>Research Interests</h2>
   <p>
@@ -132,65 +170,307 @@
 
   <h2>News</h2>
   <ul>
-    <li><b>2026</b>: Joined Keio University as a Research Fellow.</li>
-    <li><b>2026</b>: Research on layer jamming-based continuum robots published in IEEE TCST.</li>
-    <li><b>2025</b>: Joined The University of Tokyo as a Project Researcher.</li>
+    <li><b>2026.04</b>: Presented at RoboSoft 2026 Workshop @Kanazawa.</li>
+    <li><b>2026.04</b>: Joined Keio University as a Research Fellow.</li>
+	<li><b>2025.10</b>: Presented at IEEE/RSJ IROS 2025 Workshop @Hangzhou.</li>
+    <li><b>2025.09</b>: Joined The University of Tokyo as a Project researcher.</li>
+	<li><b>2024.05</b>: Present at the IEEE ICRA 2024 @Yokohama.
+	<li><b>2023.05</b>: Present at the IEEE ICRA 2023 @London.
   </ul>
+  
+  
+	  <h2>Publications</h2>
 
-  <h2>Selected Publications</h2>
+	<div class="paper-year">2026</div>
 
-  <div class="paper">
-    <div class="paper-title">
-      Modeling, Control, and Stiffness Regulation of Layer Jamming-Based Continuum Robots
-    </div>
-    Y. Fan, B. Yi, and D. Liu.<br>
-    <i>IEEE Transactions on Control Systems Technology</i>, 2026.
-  </div>
+	<div class="paper">
+	<div class="paper-title">
+	An Optimization Framework for Continuum Robot Parameter Design Based on Workspace Analysis and Simulation
+	</div>
+	<div class="authors">
+	<b>Y. Fan</b>, D. T. Ta, D. Liu.
+	</div>
+	<div class="venue">
+	IEEE Robotics and Automation Letters (RA-L).
+	<span class="status">Resubmitted</span>
+	</div>
+	</div>
 
-  <div class="paper">
-    <div class="paper-title">
-      Simultaneous Position-and-Stiffness Control of Underactuated Antagonistic Tendon-Driven Continuum Robots
-    </div>
-    B. Yi, Y. Fan, D. Liu, and J. Romero.<br>
-    <i>IEEE Transactions on Automation Science and Engineering</i>, 2024.
-  </div>
+	<div class="paper">
+	<div class="paper-title">
+	Design and Experimental Validation of a Strong and Flexible Pneumatic Actuator with Variable Stiffness for Extensible Continuum Robots
+	</div>
+	<div class="authors">
+	E. Alandoli, <b>Y. Fan</b>, J. C. Ji, D. Liu.
+	</div>
+	<div class="venue">
+	Sensors and Actuators Reports.
+	<span class="status">Submitted</span>
+	</div>
+	</div>
 
-  <div class="paper">
-    <div class="paper-title">
-      An Overview of Stiffening Approaches for Continuum Robots
-    </div>
-    Y. Fan, B. Yi, and D. Liu.<br>
-    <i>Robotics and Computer-Integrated Manufacturing</i>, 2024.
-  </div>
+	<div class="paper">
+	<div class="paper-title">
+	Probe-to-grasp Manipulation Using Self-sensing Pneumatic Variable-stiffness Joints
+	</div>
+	<div class="authors">
+	N. D. Tran, <b>Y. Fan</b>, F. Dai, K. Nguyen, A. Nguyen, H. H. Ly, D. T. Ta, S. Chiba.
+	</div>
+	<div class="venue">
+	IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
+	<span class="status">Accepted</span>
+	</div>
+	</div>
 
-  <h2>Projects</h2>
-  <p>
-    <b>Embodied Tactile Intelligence in Continuum Robotics</b><br>
-    Developing multimodal tactile sensors and perception-driven control methods
-    for soft and continuum robots.
-  </p>
+	<div class="paper">
+	<div class="paper-title">
+	Energy Tank-augmented Admittance Control for Physical Human-Robot Collaboration under Undesired Base Compliance
+	</div>
+	<div class="authors">
+	Z. Wang, <b>Y. Fan</b>, M. Carmichael, D. T. Ta.
+	</div>
+	<div class="venue">
+	IEEE Robotics and Automation Letters (RA-L).
+	<span class="status">Submitted</span>
+	</div>
+	</div>
 
-  <p>
-    <b>Variable-Stiffness Continuum Robots</b><br>
-    Design, modeling, and control of continuum robots using layer jamming,
-    tendon actuation, and nonlinear compliant structures.
-  </p>
+	<hr>
 
-  <h2>Professional Service</h2>
-  <p>
-    Reviewer and associate editor experience for international robotics conferences and journals.
-  </p>
+	<div class="paper-year">2025</div>
+
+	<div class="paper">
+	<div class="paper-title">
+	Modeling, Control, and Stiffness Regulation of Layer Jamming-based Continuum Robots
+	</div>
+	<div class="authors">
+	<b>Y. Fan</b>, B. Yi, D. Liu.
+	</div>
+	<div class="venue">
+	IEEE Transactions on Control Systems Technology (Early Access).
+	</div>
+	</div>
+
+	<hr>
+
+	<div class="paper-year">2024</div>
+
+	<div class="paper">
+	<div class="paper-title">
+	A Review of Extensible Continuum Robots: Mechanical Design, Actuation Methods, and Stiffness Variability
+	</div>
+	<div class="authors">
+	A. Esmail, <b>Y. Fan</b>, D. Liu.
+	</div>
+	<div class="venue">
+	Robotica.
+	</div>
+	</div>
+
+	<div class="paper">
+	<div class="paper-title">
+	Simultaneous Position-and-Stiffness Control of Underactuated Antagonistic Tendon-driven Continuum Robots
+	</div>
+	<div class="authors">
+	B. Yi, <b>Y. Fan</b>, D. Liu, J. Romero.
+	</div>
+	<div class="venue">
+	IEEE Transactions on Automation Science and Engineering.
+	</div>
+	</div>
+
+	<div class="paper">
+	<div class="paper-title">
+	An Overview of Stiffening Approaches for Continuum Robots
+	</div>
+	<div class="authors">
+	<b>Y. Fan</b>, B. Yi, D. Liu.
+	</div>
+	<div class="venue">
+	Robotics and Computer-Integrated Manufacturing.
+	</div>
+	</div>
+
+	<div class="paper">
+	<div class="paper-title">
+	A Novel Model for Layer Jamming-based Continuum Robots
+	</div>
+	<div class="authors">
+	B. Yi, <b>Y. Fan</b>, D. Liu.
+	</div>
+	<div class="venue">
+	IEEE International Conference on Robotics and Automation (ICRA).
+	</div>
+	</div>
+
+	<hr>
+
+	<div class="paper-year">2023</div>
+
+	<div class="paper">
+	<div class="paper-title">
+	An Equivalent Two-section Method for Calculating the Workspace of Multi-segment Continuum Robots
+	</div>
+	<div class="authors">
+	<b>Y. Fan</b>, D. Liu.
+	</div>
+	<div class="venue">
+	IEEE International Conference on Robotics and Automation (ICRA).
+	</div>
+	</div>
+
+	<hr>
+
+	<div class="paper-year">2022</div>
+
+	<div class="paper">
+	<div class="paper-title">
+	A Novel Continuum Robot with Stiffness Variation Capability Using Layer Jamming: Design, Modeling, and Validation
+	</div>
+	<div class="authors">
+	<b>Y. Fan</b>, D. Liu, L. Ye.
+	</div>
+	<div class="venue">
+	IEEE Access.
+	</div>
+	</div>
+
+	<div class="paper">
+	<div class="paper-title">
+	Prediction Method of Chlorophyll Fluorescence Fv/Fm Image Based on Hyperspectral Image
+	</div>
+	<div class="authors">
+	D. Wang, K. Shen, <b>Y. Fan</b>, B. Long.
+	</div>
+	<div class="venue">
+	Transactions of the Chinese Society for Agricultural Machinery.
+	</div>
+	</div>
+
+	<hr>
+
+	<div class="paper-year">2020</div>
+
+	<div class="paper">
+	<div class="paper-title">
+	Individual Wheat Kernels Vigor Assessment Based on NIR Spectroscopy Coupled with Machine Learning Methodologies
+	</div>
+	<div class="authors">
+	<b>Y. Fan</b>, S. Ma, T. Wu.
+	</div>
+	<div class="venue">
+	Infrared Physics & Technology.
+	</div>
+	</div>
+
+	<div class="paper">
+	<div class="paper-title">
+	Optimal Energy Consumption Path Planning of UAV on Mountain Region Based on the Simulated Annealing Algorithm
+	</div>
+	<div class="authors">
+	<b>Y. Fan</b>, K. Shen, D. Wang, C. Zhai, H. Zhang.
+	</div>
+	<div class="venue">
+	Transactions of the Chinese Society for Agricultural Machinery.
+	</div>
+	</div>
+
+	<hr>
+
+	<div class="paper-year">2019</div>
+
+	<div class="paper">
+	<div class="paper-title">
+	Design and Experiment of the Test System for Steering Energy Consumption of Electric Multi-rotor UAV
+	</div>
+	<div class="authors">
+	<b>Y. Fan</b>, D. Wang, K. Shen, H. Zhang.
+	</div>
+	<div class="venue">
+	Science Technology and Engineering.
+	</div>
+	</div>
+
+	<div class="paper">
+	<div class="paper-title">
+	Assessment of Canopy Vigor Information from Kiwifruit Plants Based on UAV Imagery
+	</div>
+	<div class="authors">
+	J. Xue, <b>Y. Fan</b>, B. Su, S. Fuentes.
+	</div>
+	<div class="venue">
+	International Journal of Agricultural and Biological Engineering.
+	</div>
+	</div>
+
+	<div class="paper">
+	<div class="paper-title">
+	Flight Path Control of UAV in Mountain Orchards Based on Fusion of GNSS and Machine Vision
+	</div>
+	<div class="authors">
+	D. Wang, <b>Y. Fan</b>, J. Xue, D. Yuan, K. Shen, H. Zhang.
+	</div>
+	<div class="venue">
+	Transactions of the Chinese Society for Agricultural Machinery.
+	</div>
+	</div>
+
+	<div class="paper">
+	<div class="paper-title">
+	Performance Improvement of Torque and Suspension Force for a Novel Five-phase BFSPM Machine
+	</div>
+	<div class="authors">
+	X. Sun, Z. Jin, S. Wang, Z. Yang, K. Li, <b>Y. Fan</b>, L. Chen.
+	</div>
+	<div class="venue">
+	IEEE Transactions on Applied Superconductivity.
+	</div>
+	</div>
+
+	<div class="paper">
+	<div class="paper-title">
+	Performance Optimization Design and Analysis of Bearingless Induction Motor with Different Magnetic Slot Wedges
+	</div>
+	<div class="authors">
+	K. Li, G. Cheng, X. Sun, Z. Yang, <b>Y. Fan</b>.
+	</div>
+	<div class="venue">
+	Results in Physics.
+	</div>
+	</div>
+<h2>Professional Services</h2>
+
+<p>
+<b>Associate Editor</b><br>
+IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2026.
+</p>
+
+<p>
+<b>Journal Reviewer</b><br>
+IEEE Transactions on Robotics (T-RO), IEEE Transactions on Automation Science and Engineering (T-ASE),
+IEEE Robotics and Automation Letters (RA-L),
+IEEE Transactions on Medical Robotics and Bionics (T-MRB),
+IEEE Transactions on Fuzzy Systems (T-FS),
+Journal of Field Robotics (JFR),
+Journal of Robotics.
+</p>
+
+<p>
+<b>Conference Reviewer</b><br>
+IROS, ICRA, RoboSoft, CCTA,
+IECON 2023, INDIN 2025, IEEE/SICE SII 2026.
+</p>
+  
+  
+  
+  
 
   <h2>Contact</h2>
   <p>
     Faculty of Environment and Information Studies<br>
-    Keio University, Japan<br>
-    Email: your-email@example.com
+    Keio University SFC, Japan<br>
+    Email: yemanfan@keio.jp
   </p>
-
-  <div class="footer">
-    Last updated: July 2026
-  </div>
 
 </body>
 </html>
